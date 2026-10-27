@@ -7,7 +7,7 @@ async function getWeather() {
 
     // Fetch from OpenWeatherMap (Replace 'YOUR_API_KEY' with your free key)
     const apiKey = 'YOUR_API_KEY'; 
-    const weatherUrl = https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey};
+    const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
     
     try {
         const response = await fetch(weatherUrl);
@@ -24,7 +24,7 @@ async function getWeather() {
             // Send the successful city search to the Python backend
             saveSearch(data.name);
         } else {
-            document.getElementById('weatherResult').innerHTML = <p>City not found.</p>;
+            document.getElementById('weatherResult').innerHTML = '<p>City not found.</p>';
         }
     } catch (error) {
         console.error("Error fetching weather:", error);
@@ -52,7 +52,7 @@ async function loadHistory() {
     // Add each database row to the HTML list
     history.forEach(item => {
         const li = document.createElement('li');
-        li.textContent = ${item.city} - ${item.date};
+        li.textContent = `${item.city} - ${item.date}`;
         historyList.appendChild(li);
     });
 }
