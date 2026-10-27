@@ -56,3 +56,5 @@ async function loadHistory() {
         historyList.appendChild(li);
     });
 }
+
+// Its working! You can now search for a city, and the search history will be saved in the database and displayed on the page.  
