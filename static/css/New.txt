@@ -3,3 +3,7 @@ Hi i am new text
 THis is second line 
 this is mt update in 3 command
 i check it work or not
+i arrage the senteance
+git switch abc
+to chage for test work or not
+and then how to work check it 
