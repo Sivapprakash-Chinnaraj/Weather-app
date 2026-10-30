@@ -2,4 +2,7 @@ Hi i am new text
 
 THis is second line 
 i check it work or not
-ok its done
+i arrage the senteance
+git switch abc
+to chage for test work or not
+and then how to work
