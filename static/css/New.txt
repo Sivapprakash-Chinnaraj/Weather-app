@@ -6,4 +6,4 @@ i check it work or not
 i arrage the senteance
 git switch abc
 to chage for test work or not
-and then how to work check it 
+and then how to work
