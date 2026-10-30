@@ -16,7 +16,7 @@ body {
 }
 .search-box {
     display: flex;
-    gap: 10.5px;
+    gap: 10px;
     margin-bottom: 20px;
 }
 input {
@@ -61,4 +61,7 @@ ul {
     color: #333;
     border-radius: 16px;
     font-size: 0.85em;
+}
+.city-chip:hover {
+    background-color: #d5d5d5;
 }
